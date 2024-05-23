@@ -1,0 +1,129 @@
+/* Basisstijl */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Headerstijl */
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    border-bottom: #77b300 3px solid;
+}
+
+header h1 {
+    float: left;
+    margin: 0;
+    padding: 0 20px;
+}
+
+header nav {
+    float: right;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    display: inline;
+    padding: 0 20px;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+/* Showcase stijl */
+.showcase {
+    background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
+    color: #fff;
+    height: 400px;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.showcase h1 {
+    font-size: 55px;
+}
+
+.showcase p {
+    font-size: 20px;
+}
+
+/* Contentstijl */
+.content {
+    padding: 20px;
+    background: #fff;
+    margin-top: 20px;
+}
+
+.content h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Afbeeldingsstijl */
+.content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+/* Galerijstijl */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gallery img {
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Footerstijl */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Contact stijl */
+.contact {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Stijl voor banners */
+.banner {
+    background: #77b300;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
